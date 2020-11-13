@@ -21,7 +21,7 @@ const Posts=() => {
                     </Grid>
                 ))}
             </Grid>
-        );
+        )
     );
 }
 
