@@ -18,10 +18,10 @@ const App=() => {
     },[dispatch]);
 
     return (
-        <Container maxwidth="lg">
+        <Container maxWidth="lg">
             <AppBar className={classes.appBar} position="static" color="inherit">
                 <Typography className={classes.heading} variant="h2" align="center">PhotoMedia</Typography>
-                <img className={classes.image} src={logo} alt="PhotoMedia" height="60" />
+                <img className={classes.image} src={logo} alt="icon" height="60" />
             </AppBar>
             <Grow in>
                 <Container>
