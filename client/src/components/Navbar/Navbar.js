@@ -2,6 +2,8 @@ import React from 'react';
 import { combineReducers } from 'redux';
 import { AppBar, Typography } from '@material-ui/core';
 
+import useStyles from './styles';
+
 const Navbar = () => {
     return (
         <AppBar className={classes.appBar} position='static' color='inherit'>
