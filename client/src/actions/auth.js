@@ -5,7 +5,7 @@ export const signin = (formData, router) => async (dispatch) => {
   try {
     // log in the user
 
-    history.push('/');
+    router.push('/');
   } catch (error) {
     console.log(error);
   }
@@ -15,7 +15,7 @@ export const signup = (formData, router) => async (dispatch) => {
   try {
     // sign up the user
 
-    history.push('/');
+    router.push('/');
   } catch (error) {
     console.log(error);
   }
