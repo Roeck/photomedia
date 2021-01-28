@@ -18,7 +18,7 @@ app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
 const CONNECTION_URL =
-  'mongodb+srv://photomedia:RAMG9797@cluster0.ifp44.mongodb.net/<dbname>?retryWrites=true&w=majority';
+  'mongodb+srv://rons9n:ramg999@cluster0.ifp44.mongodb.net/<dbname>?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
 mongoose
